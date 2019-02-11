@@ -1,0 +1,23 @@
+{
+  "name": "pvpasm",
+  "version": "1.0.0",
+  "description": "pvp assembly snippets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Daniel Lim",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-mongodb-session": "^2.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
